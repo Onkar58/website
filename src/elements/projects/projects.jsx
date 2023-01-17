@@ -10,7 +10,7 @@ const Projects = () => {
                 {projectsInfo.map((currentValue) =>
                     <div className={styles.card} data={currentValue.onhover}>
                         <div className={styles.imgDiv}>
-                            <img src={currentValue.imgUrl} />
+                            <img src={currentValue.imgUrl} alt={currentValue.name}/>
                         </div>
                         <h2>{currentValue.name}</h2>
                         <p>{currentValue.text}</p>

@@ -12,7 +12,7 @@ const Homepage = () => {
                         {MainLockupInfo.map((currentValue) => <div className={styles.box} data-hover={currentValue.name}><img src={currentValue.url} alt={currentValue.name} /></div>)}
                     </div>
                     <div className={styles.mainlockUp}>
-                        <div className={styles.heading}>HOLA !<img src={require('../assests/images/hi.png')} className={styles.hi}/></div>
+                        <div className={styles.heading}>HOLA !<img src={require('../assests/images/hi.png')} alt="" className={styles.hi}/></div>
                         <div className={styles.subheading}>
                             <h1>I am <span>Onkar Waghmode</span></h1><br />
                             <span>a Web Developer</span><br />
