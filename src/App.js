@@ -6,9 +6,9 @@ import Navbar from "./elements/navbar/navbar"
 function App() {
   return (
     <>
-      <Navbar />
-      <Homepage />
-      <Projects />
+      <Navbar/>
+      {/* <Homepage /> */}
+      {/* <Projects /> */}
     </>
   );
 }

@@ -1,17 +1,19 @@
 .container{
     /* height: 85vh; */
-    border: none;
-    /* border: #000 solid 20px; */
+    /* border: none; */
+    border: #000 solid 2px;
 }
 
 .contents{
     /* border: #0f0 solid 2px; */
     height: 60%;
+    width: max-content;
+    margin: 0 auto;
     margin-top: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 150px;
+    gap: 170px;
 }
 
 
@@ -121,4 +123,17 @@
     border: #fff 2px solid;
     background: none;
     color: #fff;
+}
+
+@media (max-width: 1100px) {
+    html{
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 600px) {
+    .contents{
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
