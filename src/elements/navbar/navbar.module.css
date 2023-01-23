@@ -24,11 +24,56 @@
 .navbar ul li a{
     text-decoration: none;
     color: #fff;
-
 }
 
-.navbar ul li a:hover{
-} 
+.navbar2{
+
+    border: #00f solid 2px;
+    display: flex;
+    align-items: center;
+    /* gap: .5rem; */
+}
+
+.navbar2 h3{
+    font-size: 1.5rem;
+    margin: .8rem 1.5rem;
+    /* margin-right: 0; */
+}
+.navbar2 button{
+    /* display: none; */
+    /* transform:  scaleX(1.5); */
+    cursor: pointer;
+    padding: 0;
+    height: fit-content;
+    background: none;
+    /* outline: none; */
+    /* border: none; */
+    color: #fff;
+    /* font-size: 1.2rem; */
+    /* border: #00f 2px solid; */
+}
+.navbar2 ul{
+    display: flex;
+    display: none;
+    border-radius: 10px;
+    margin: 1rem 1rem;
+    padding: 1rem 2rem;
+    list-style-type: none;
+    background-color: #252525;
+    /* border: #0f0 2px solid; */
+    height: 10rem;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.navbar2 ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+/* .navbar ul li a:hover{ */
+
+/* }  */
  
 
 @media (max-width: 600px) {
