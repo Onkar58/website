@@ -15,7 +15,7 @@ function Navbar({ url }) {
   })
   function click1() {
     setBtnState(btnState => !btnState)
-    if (mystyle.display == 'none') {
+    if (mystyle.display === 'none') {
       setMyStyle({
         display: 'flex',
       })
