@@ -28,8 +28,6 @@ function Navbar({ url }) {
   }
 
   let arrowToggle = btnState ? ' fa-angle-up' : ' fa-angle-down';
-  let navDispay = btnState ? 'display: flex;' : 'display: none;';
-
   return (
     <>
       <nav className={styles.navbar}>
