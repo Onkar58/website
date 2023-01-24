@@ -13,14 +13,6 @@ function Navbar({ url }) {
   const [mystyle, setMyStyle] = useState({
     display: 'none'
   })
-  document.addEventListener('click', function () {
-    if (btnState === true) {
-      setMyStyle({
-        display: 'none',
-      });
-      setBtnState(btnState => !btnState);
-    }
-  })
   function click1() {
     setBtnState(btnState => !btnState)
     if (mystyle.display === 'none') {
