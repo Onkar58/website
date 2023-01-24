@@ -14,7 +14,7 @@ function Navbar({ url }) {
     display: 'none'
   })
   document.addEventListener('click', function () {
-    if (btnState == true) {
+    if (btnState === true) {
       setMyStyle({
         display: 'none',
       });
