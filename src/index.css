@@ -12,6 +12,10 @@ body {
   color: white;
   height: 1000vh;
   scroll-behavior: smooth;
+  /* display: flex; */
+  /* align-items: flex-start; */
+  /* justify-content: space-; */
+  /* flex-direction: column; */
 }
 
 body::-webkit-scrollbar{

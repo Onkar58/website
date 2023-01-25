@@ -10,13 +10,14 @@ const Projects = () => {
                 {projectsInfo.map((currentValue) =>
                     <div className={styles.card} data={currentValue.onhover}>
                         <div className={styles.imgDiv}>
-                            <img src={currentValue.imgUrl} alt={currentValue.name}/>
+                            <img src={currentValue.imgUrl} alt={currentValue.name} />
                         </div>
                         <h2>{currentValue.name}</h2>
                         <p>{currentValue.text}</p>
                     </div>
                 )}
             </div>
+            <button className={styles.projectBtn}>My Projects <i className="fa-solid fa-arrow-right"></i></button>
         </div>
     )
 }
