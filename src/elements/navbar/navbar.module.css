@@ -38,8 +38,10 @@
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
     display: none;
     align-items: center;
+    /* border: #0f0 2px solid; */
 }
 
 .navbar2 h3{
@@ -68,7 +70,6 @@
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    z-index: 100;
 }
 
 ul.clicked{
@@ -86,7 +87,7 @@ ul.clicked{
 
 @media (max-width: 800px) {
     html{
-        font-size: 12px;
+        font-size: 16px;
     }
 }
 
