@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Homepage.module.css'
+import styles from './homepage.module.css'
 import MainLockupInfo from '../info/mainLockUp.jsx'
 
 // import image1 from '../assests/images/react.png'
