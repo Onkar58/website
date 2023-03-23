@@ -28,11 +28,15 @@ function Navbar({ url }) {
   }
 
   let arrowToggle = btnState ? ' fa-angle-up' : ' fa-angle-down';
+
+
+
+
   return (
     <>
       <nav className={styles.navbar}>
         <ul>
-          {navbarInfo.map((currentValue) => <li><a href={currentValue.url}>{currentValue.title}</a></li>)}
+          {navbarInfo.map((currentValue, index) => <li key={currentValue.key}><a key={index} href={currentValue.url}>{currentValue.title}</a></li>)}
         </ul>
       </nav>
       <nav className={styles.navbar2}>
