@@ -8,6 +8,7 @@ const Contact = () => {
         <div className={styles.container}>
           <h1 className={styles.headings}>Get in Touch</h1>
           <div className={styles.links}>
+            <a href="mailto: onkarwaghmode58@gmail.com">
             <button className={styles.btn}>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="52 42 88 66">
                 <path fill="#4285f4" d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6" />
@@ -18,6 +19,7 @@ const Contact = () => {
               </svg>
               Contact Me
             </button>
+            </a>
             <div className={styles.icons}>
               <a href='https://www.instagram.com/onkar.58' target="blank"><i className="fa-brands fa-instagram"></i></a>
               <a href='https://www.linkedin.com/in/onkar58' target="blank"><i className="fa-brands fa-linkedin"></i></a>
