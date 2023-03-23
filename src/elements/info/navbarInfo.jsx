@@ -1,7 +1,7 @@
 let info = [
     {
         title: "HOME",
-        url: "/",
+        url: "#home",
     },
     {
         title: "ABOUT ME",

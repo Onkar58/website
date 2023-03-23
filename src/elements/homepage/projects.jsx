@@ -1,6 +1,6 @@
 import React from 'react'
 import projectsInfo from '../info/projectsInfo'
-import styles from './projects.module.css'
+import styles from './Projects.module.css'
 
 const Projects = () => {
     return (

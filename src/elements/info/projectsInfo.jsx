@@ -12,12 +12,12 @@ let info = [
         text: "A Simple React App that uses json file to fetch information and updates the same on click",
         onhover: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus augue massa, eu vestibulum ligula scelerisque vitae. Aenean consequat non metus mollis dictum. Duis sagittis, dui non semper.",
     },
-    {
-        name: "Project 3",
-        imgUrl: require("../assests/images/project_1.png"),
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus augue massa, eu vestibulum ligula scelerisque vitae. Aenean consequat non metus mollis dictum. Duis sagittis, dui non semper.",
-        onhover: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus augue massa, eu vestibulum ligula scelerisque vitae. Aenean consequat non metus mollis dictum. Duis sagittis, dui non semper.",
-    },
+    // {
+    //     name: "Project 3",
+    //     imgUrl: require("../assests/images/project_1.png"),
+    //     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus augue massa, eu vestibulum ligula scelerisque vitae. Aenean consequat non metus mollis dictum. Duis sagittis, dui non semper.",
+    //     onhover: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus augue massa, eu vestibulum ligula scelerisque vitae. Aenean consequat non metus mollis dictum. Duis sagittis, dui non semper.",
+    // },
     // {
     //     name: "Project 2",
     //     imgUrl: require("../assests/images/project_1.png"),

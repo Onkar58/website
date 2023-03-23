@@ -1,5 +1,7 @@
-import Homepage from "./elements/homepage/homepage";
-import Projects from "./elements/homepage/projects";
+import About from "./elements/homepage/About";
+import Contact from "./elements/homepage/Contact";
+import Homepage from "./elements/homepage/Homepage";
+import Projects from "./elements/homepage/Projects";
 import Navbar from "./elements/navbar/navbar"
 // import { NavLink } from "react-router-dom";
 
@@ -9,6 +11,8 @@ function App() {
       <Navbar/>
       <Homepage />
       <Projects />
+      <About />
+      <Contact />
     </>
   );
 }

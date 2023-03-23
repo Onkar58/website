@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './homepage.module.css'
+import styles from './Homepage.module.css'
 import MainLockupInfo from '../info/mainLockUp.jsx'
 
 // import image1 from '../assests/images/react.png'
@@ -7,7 +7,8 @@ import MainLockupInfo from '../info/mainLockUp.jsx'
 const Homepage = () => {
     return (
         <>
-            <div className={styles.container} id="home">
+            <div id='home' className={styles.emptyContainer}></div>
+            <div className={styles.container}>
                 <div className={styles.images}>
                     {MainLockupInfo.map((currentValue) => <div className={styles.box} data-hover={currentValue.name}><img src={currentValue.url} alt={currentValue.name} /></div>)}
                 </div>

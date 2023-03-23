@@ -1,3 +1,9 @@
+.emptyContainer {
+    height: 10px;
+    background-color: #67daf9;
+    opacity: 0;
+}
+
 .container {
     /* border: #0f0 solid 2px; */
     width: 100%;
@@ -167,6 +173,7 @@
 
 @media (max-width: 600px) {
     .container {
+        margin-left: 10px;
         margin-top: 100px;
         width: 100%;
         height: max-content;

@@ -10,7 +10,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #191919;
   color: white;
-  height: 1000vh;
+  /* height: 100vh; */
+  margin-bottom: 100px;
   scroll-behavior: smooth;
   /* display: flex; */
   /* align-items: flex-start; */
